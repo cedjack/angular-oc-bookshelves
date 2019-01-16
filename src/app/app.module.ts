@@ -22,6 +22,7 @@ const appRoute: Routes = [
   {path: 'books', component: BookListComponent},
   {path: 'books/new', component: BookFormComponent},
   {path: 'books/view/:id', component: SingleBookComponent},
+  {path: '', component: SigninComponent},
 ];
 
 @NgModule({

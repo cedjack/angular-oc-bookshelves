@@ -9,7 +9,7 @@ import * as firebase from 'firebase';
 export class AppComponent {
   constructor() {
     // Initialize Firebase
-    var config = {
+    const config = {
       apiKey: 'AIzaSyArO5BIkLFwdMAc2bv0t7QpSOcB6wb1vkI',
       authDomain: 'angular-oc-bookshelves.firebaseapp.com',
       databaseURL: 'https://angular-oc-bookshelves.firebaseio.com',
